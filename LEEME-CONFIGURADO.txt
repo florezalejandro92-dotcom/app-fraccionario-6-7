@@ -1,0 +1,14 @@
+Este index.html YA ESTA CONFIGURADO con tu Supabase
+
+URL: https://byrftyinectypkvlvglpd.supabase.co
+KEY: configurada
+
+Solo súbelo a GitHub y reemplazará al anterior.
+
+Pasos:
+1. Ve a tu repo GitHub fracciones-6-7-final
+2. Entra a index.html -> Edit (lápiz)
+3. Borra todo y pega este nuevo index.html
+4. Commit
+
+Listo, ahora sí guarda centralizado.
