@@ -1,0 +1,35 @@
+# Fracciones 6º y 7º - Entrega Final Limpia
+
+## Esta es la versión final limpia, sin letreros de "corregida"
+
+### Características:
+- 12 módulos con contenido original
+- 10 preguntas por módulo en banco, muestra 6 aleatorias por taller con rotación
+- Examen acumulativo 25 preguntas aleatorias
+- Registro estudiante/docente
+- Guardado persistente en localStorage (y opcional Supabase centralizado)
+
+### Para usar en PC:
+Doble clic en index.html
+
+### Para subir a GitHub Pages:
+1. Crea repo público fracciones-6-7-final
+2. Sube index.html y .nojekyll a la raíz
+3. Settings > Pages > Branch main / root > Save
+4. Link listo para celulares
+
+### Para guardado centralizado (recomendado para que docente vea todo):
+1. Crea proyecto en supabase.com
+2. SQL Editor > pega supabase/schema.sql (de tu paquete original)
+3. Project Settings > API > copia URL y anon key
+4. Abre index.html con VS Code, busca CONFIG = {supabaseUrl: "", supabaseAnonKey: ""}
+5. Pega tus datos y guarda, vuelve a subir a GitHub
+
+Sin configurar Supabase, funciona local por dispositivo.
+Con Supabase configurado, guarda centralizado para todo el grupo.
+
+### Verificación:
+- Registro/Login funciona
+- 6 preguntas por taller con respuestas que concuerdan
+- Botones: Calificar, Volver a intentar (rota), Siguiente, Marcar estudiado, Examen, Actualizar
+- Guardado constante
